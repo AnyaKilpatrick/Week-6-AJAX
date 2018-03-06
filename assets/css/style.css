@@ -1,3 +1,19 @@
 header {
-    background: grey;
+    background: #e8d3b3;
+    border-bottom: solid 3px #835a1b;
+}
+.mainContent {
+    background-image: url("../images/wood.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#add {
+    background-color: #835a1b;
+    border-color: #835a1b;
+}
+#myGif {
+    margin: 5px;
+    border: solid 5px #835a1b;
+    border-radius: 10px;
 }

@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- <link rel="reset" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>MyGIFMaker</title>
 </head>
 <body>
     <div class="container-fluid">
-        <header class="row">
+        <header class="row" id="buttonHolder">
         <!-- This is where added buttons will be placed -->
         </header>
         <div class="row mainContent">
             <aside class="col-4">
-
+                <form>
+                    <div class="form-group mt-3 mb-3">
+                        <label class="h5">Add an animal</label>
+                        <input type="text" class="form-control" id="gifInput">
+                    </div>
+                    <button type="button" class="btn btn-secondary" id="add">Submit</button>
+                </form>
             </aside>
-            <article class="col-8">
-                <!-- GIFs will be placed here -->
+            <article class="col-8 mt-3 mb-3">
+                <div class="row justify-content-start" id="gifHolder">
+                     <!-- GIFs will be placed here -->
+                </div>
             </article>
         </div>
     </div>
-    
+    <script src="assets/javascript/app.js"></script>
 </body>
 </html>
