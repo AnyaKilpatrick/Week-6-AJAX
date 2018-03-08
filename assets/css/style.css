@@ -24,3 +24,9 @@ header {
     border: solid 5px #83591b7e;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 448px) {
+    .myGif {
+      max-width: 240px;
+    }
+} 

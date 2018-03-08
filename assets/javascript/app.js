@@ -4,7 +4,6 @@ var gifHolder = $("#gifHolder");
 // OBJECT
 gifMaker = {
     topics: ["cat", "dog", "hamster", "husky", "squirel"],
-    // queryURL: "https://api.giphy.com/v1/gifs/search?q="+myGif+"&limit=10&api_key=17mHbk7SviDeu8zE1XGW7K4VGnHrNpPb",
 
     buttonList: function() { //method to display starting buttons
         $("#buttonHolder").empty();
@@ -35,7 +34,7 @@ gifMaker = {
             myGif = $(this).text().trim();
             console.log(myGif);
             $.ajax({
-                url: "https://api.giphy.com/v1/gifs/search?q="+myGif+"&limit=10&api_key=17mHbk7SviDeu8zE1XGW7K4VGnHrNpPb",
+                url: "https://api.giphy.com/v1/gifs/search?q="+myGif+"&limit=10&rating=g&api_key=17mHbk7SviDeu8zE1XGW7K4VGnHrNpPb",
                 method: 'GET'
             }).then(function(response) {
                 console.log(response);
