@@ -1,19 +1,26 @@
-header {
-    background: #e8d3b3;
-    border-bottom: solid 3px #835a1b;
-}
-.mainContent {
+body {
     background-image: url("../images/wood.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-#add {
-    background-color: #835a1b;
-    border-color: #835a1b;
+
+header {
+    background: #e8d3b35b;
+    border-bottom: solid 3px #83591b6c;
 }
-#myGif {
+/* .mainContent {
+    background-image: url("../images/wood.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+#add {
+    background-color: #83591b6e;
+    border-color: #83591bb2;
+}
+.myGif {
     margin: 5px;
-    border: solid 5px #835a1b;
+    border: solid 5px #83591b7e;
     border-radius: 10px;
 }

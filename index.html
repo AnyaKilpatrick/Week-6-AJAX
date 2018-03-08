@@ -11,7 +11,7 @@
     <title>MyGIFMaker</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="myHeader">
         <header class="row" id="buttonHolder">
         <!-- This is where added buttons will be placed -->
         </header>
@@ -19,7 +19,7 @@
             <aside class="col-4">
                 <form>
                     <div class="form-group mt-3 mb-3">
-                        <label class="h5">Add an animal</label>
+                        <label class="h5">Add new topic</label>
                         <input type="text" class="form-control" id="gifInput">
                     </div>
                     <button type="button" class="btn btn-secondary" id="add">Submit</button>
@@ -27,6 +27,7 @@
             </aside>
             <article class="col-8 mt-3 mb-3">
                 <div class="row justify-content-start" id="gifHolder">
+                    <img src="assets/images/welcome.gif" alt="welcome">
                      <!-- GIFs will be placed here -->
                 </div>
             </article>
