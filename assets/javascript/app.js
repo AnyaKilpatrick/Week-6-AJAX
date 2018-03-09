@@ -3,7 +3,7 @@ var myGif;
 var gifHolder = $("#gifHolder");
 // OBJECT
 gifMaker = {
-    topics: ["cat", "dog", "hamster", "husky", "squirel"],
+    topics: ["cat", "dog", "hamster", "husky", "squirrel"],
 
     buttonList: function() { //method to display starting buttons
         $("#buttonHolder").empty();
