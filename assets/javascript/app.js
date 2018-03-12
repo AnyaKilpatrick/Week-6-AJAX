@@ -16,7 +16,8 @@ gifMaker = {
     },
 
     addButton: function(){    //method to add new buttons
-        $("#add").on("click", function(event){
+        $("#add").on("click", function(event){ //as it's a submit button, this function will be executed when you press Enter too
+            event.preventDefault();
             var wordLength = $("#gifInput").val().trim().length;
             var myInput = $("#gifInput").val().trim();
             if (wordLength > 0 && gifMaker.topics.indexOf(myInput) === -1){ //prevent from adding empty button and from repeating
